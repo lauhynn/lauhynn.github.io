@@ -1,0 +1,157 @@
+body {
+	height: 100%;
+	background-image: url("haaleapisara.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h2 {
+	
+	color: #66cccc;
+}
+
+
+.navbar {
+	width:100%;
+	border-bottom:white;
+	background: #66cccc;
+}
+.navbar row {
+	margin:none;
+}
+.navbar-toggler {
+	
+}
+
+a:hover {
+	color:magenta;
+	transition: 3s;
+}
+
+.nav-link {
+	color: white;
+
+}
+
+
+
+.nav-link active href{
+	color: white;
+	background-color: grey;
+	outline: none;
+}
+
+.navbar-brand { 
+	image-size: 5px;
+	margin-left:10px;
+}
+
+
+.jumbotron h1 p {
+	text-align:center;
+	width:100%;
+	
+}
+
+.fieldset {
+	margin-left:20px;
+	padding-left:10px;
+}
+
+
+.carousel {
+	margin-top: 20px;
+	padding-top:10px;
+}
+	
+	
+.carousel-item img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	filter: invert(100%) ;
+}
+.row {
+	width:100%;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top: 20px;
+	
+}
+
+.content-box {
+	margin:10px;
+	border-style: none;
+}
+
+	
+	
+.content-box img {
+	margin-left: 10%;
+	margin-top: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	
+}
+	
+.content-box p {
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	
+
+}
+
+.content-box h2 {
+	padding-left: 10%;
+}
+
+.esittely h2 p {
+	margin-top:30px;
+	margin-bottom:10px;
+
+}
+.yhteys {
+	padding-top:50px;
+}
+
+p {
+	color: black;
+}
+
+.col-md-4 img {
+	width:80%;
+}
+
+.col-md-4 p {
+	padding-left:20px;
+}
+	
+}
+.col-md-6 {
+	margin-top:10px;
+}	
+
+.col-md-8 p {
+	margin-top:20px;
+	padding-top:10px;
+}
+	
+
+footer {
+	margin-top: 10px;
+	height:50px;
+	background-color:#66cccc;
+	color: white;
+	text-align: center;
+}
+
+	
+	
