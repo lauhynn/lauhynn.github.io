@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="fi">
 	<head>
-		<title>Sivusto</title>
+		<title>Lauran sivut</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css"/>
 	</head>
 	<body>
-		<nav class="navbar navbar-transparent navbar-expand-md row">
+		<nav class="navbar navbar-light navbar-expand-md row">
 			
 			<div class="col-md-6">
 				<img src="pienilogo.png" alt="logo" class="navbar-brand">
@@ -18,21 +18,22 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 			
-			<div id="navbarMenu" class="collapse navbar-collapse">
-				<ul class="nav nav-pills">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">ETUSIVU</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="second.html">MAALAUS</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="third.html">KUVAUS</a>
-					</li>
-					<li class="nav-item ">
-						<a class="nav-link active" href="#">TIETOJA</a>
-					</li>
-				</ul>
+				<div id="navbarMenu" class="collapse navbar-collapse">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">ETUSIVU</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="second.html">MAALAUS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="third.html">KUVAUS</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link active" href="#">TIETOJA</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 		
@@ -45,7 +46,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="content-box">
-					<img src="kukka2.jpg" alt="testi2"/>
+					<img src="kukka2.jpg" alt="testi2" width="320"/>
 				</div>
 			</div>
 		</div>
@@ -54,12 +55,14 @@
 			<div class="content-box">
 				<form action="#">
 					<fieldset>
-						<legend>Yhteydenotto</legend>
-						<legend>Kirjoita viestisi minulle:</legend>
-						<label for="owntextarea">Tekstialue (max. 240 merkkiä):</label><br>
-						<textarea id="owntextarea" name="owntextarea" rows="4" cols="60"></textarea><br>
-						<legend>Lähetä</legend>
-						<input type="submit" value="Lähetä">
+						<h2>YHTEYDENOTTO</h2>
+						<p>Kirjoita viestisi minulle alla. <em style="color:red">HUOM: ei toiminnassa tällä hetkellä.</em></p>
+							<div class= "textbox">
+								<label for="owntextarea">Tekstialue (max. 240 merkkiä):</label><br>
+								<textarea id="owntextarea" name="owntextarea" rows="4" cols="60"></textarea><br>
+								<br>
+								<input type="submit" value="Lähetä">
+							</div>
 					</fieldset>
 				</form>
 			</div>
@@ -68,7 +71,7 @@
 		
 		
 		
-		<footer>Laura 2020</footer>
+		<footer>&copy Laura 2020</footer>
 		
 	
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

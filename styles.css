@@ -9,6 +9,7 @@ body {
 h2 {
 	
 	color: #66cccc;
+	text-shadow:4px 4px 7px white;
 }
 
 
@@ -17,10 +18,9 @@ h2 {
 	border-bottom:white;
 	background: #66cccc;
 }
-.navbar row {
-	margin:none;
-}
+
 .navbar-toggler {
+	color: black;
 	
 }
 
@@ -35,30 +35,9 @@ a:hover {
 }
 
 
-
-.nav-link active href{
-	color: white;
-	background-color: grey;
-	outline: none;
-}
-
 .navbar-brand { 
-	image-size: 5px;
 	margin-left:10px;
 }
-
-
-.jumbotron h1 p {
-	text-align:center;
-	width:100%;
-	
-}
-
-.fieldset {
-	margin-left:20px;
-	padding-left:10px;
-}
-
 
 .carousel {
 	margin-top: 20px;
@@ -79,25 +58,44 @@ a:hover {
 }
 .row {
 	width:100%;
-	margin-left:20px;
-	margin-right:20px;
 	margin-top: 20px;
+}
+
+.smallpic {
+	margin-left:40%;
+	width:200px;
 	
+}
+
+.esittely {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+
 }
 
 .content-box {
-	margin:10px;
-	border-style: none;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+form {
+	margin-left:20px;
+}	
+
+.textbox {
+	margin-left:50px;
 }
 
-	
-	
+em {
+	color:red;
+}
+
 .content-box img {
-	margin-left: 10%;
-	margin-top: 10%;
-	margin-right: 10%;
-	margin-bottom: 10%;
-	
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10%;
+	margin-bottom:10%;
 }
 	
 .content-box p {
@@ -105,19 +103,12 @@ a:hover {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 10%;
-	
-
 }
 
 .content-box h2 {
 	padding-left: 10%;
 }
 
-.esittely h2 p {
-	margin-top:30px;
-	margin-bottom:10px;
-
-}
 .yhteys {
 	padding-top:50px;
 }
@@ -128,30 +119,40 @@ p {
 
 .col-md-4 img {
 	width:80%;
+	box-shadow:2px 2px 5px grey;
 }
 
 .col-md-4 p {
 	padding-left:20px;
 }
 	
-}
 .col-md-6 {
 	margin-top:10px;
 }	
 
 .col-md-8 p {
 	margin-top:20px;
-	padding-top:10px;
+	padding:10px;
+	border-style: dotted;
+	border-color: #ff66ff;
+	box-shadow: 3px 3px 7px #ff66ff;
 }
-	
+.col-md-8 h2 {
+	color: #ff66ff;
+	text-shadow: 2px 2px 5px #ffccff;
+}
+
+
+.fieldset h2 p {
+	margin-left: 30px;
+}
+
 
 footer {
-	margin-top: 10px;
+	margin-top: 20px;
+	padding:10px;
 	height:50px;
 	background-color:#66cccc;
 	color: white;
 	text-align: center;
 }
-
-	
-	
